@@ -14,7 +14,17 @@
   flex-wrap: wrap;
 }
 
+.col-3 {
+  width: calc(100% / 4);
+  text-align: center;
+  padding: 0.25rem;
+}
+
 .col-4 {
   width: calc(100% / 3);
   text-align: center;
+}
+
+img{
+    max-width: 100%;
 }
